@@ -1,0 +1,10 @@
+# need to have conda installed
+# these are instructions for macOS
+git clone https://github.com/OpenBMB/ChatDev.git
+conda create -n ChatDev_conda_env python=3.9 -y
+conda activate ChatDev_conda_env
+cd ChatDev
+pip3 install -r requirements.txt
+set OPENAI_API_KEY=your_key
+python run.py --task "[description_of_your_idea]" --name "[project_name]"
+python3 online_log/app.py
