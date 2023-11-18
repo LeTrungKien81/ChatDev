@@ -1,6 +1,6 @@
 # need to have conda installed
 # these are instructions for macOS
-git clone https://github.com/OpenBMB/ChatDev.git
+git clone https://github.com/LeTrungKien81/ChatDev
 conda create -n ChatDev_conda_env python=3.9 -y
 conda activate ChatDev_conda_env
 cd ChatDev
